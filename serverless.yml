@@ -1,0 +1,17 @@
+service: stocker
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: ap-south-1
+
+functions:
+  app:
+    handler: index.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
+
+plugins:
+  - serverless-offline
