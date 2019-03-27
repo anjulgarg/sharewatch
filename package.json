@@ -1,20 +1,47 @@
 {
   "name": "stocker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fetch Real-time Indian stock market data from NSE (National Stock Exchange) and BSE (Bombay Stock Exchange)",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">= 8.10.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "History.md",
+    "index.js",
+    "lib/"
+  ],
+  "keywords": [
+    "NSE",
+    "BSE",
+    "Indian Stock Market"
+  ],
+  "author": "Anjul Garg <anjulgarg@live.com>",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
     "request": "^2.88.0",
-    "serverless-http": "^1.9.1"
+    "request-promise": "^4.2.4"
   },
   "devDependencies": {
-    "serverless-offline": "^4.8.1"
-  }
+    "chai": "^4.2.0",
+    "eslint": "^5.15.3",
+    "mocha": "^6.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjulgarg/stocker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anjulgarg/stocker/issues"
+  },
+  "homepage": "https://github.com/anjulgarg/stocker#readme"
 }
