@@ -6,4 +6,4 @@
 
 'use strict'
 
-module.exports = require('./lib/stocker')
+module.exports = require('./lib/sharewatch')

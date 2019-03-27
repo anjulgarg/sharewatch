@@ -1,5 +1,5 @@
 {
-  "name": "stocker",
+  "name": "sharewatch",
   "version": "1.0.0",
   "description": "Fetch Real-time Indian stock market data from NSE (National Stock Exchange) and BSE (Bombay Stock Exchange)",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "files": [
     "LICENSE",
-    "Readme.md",
+    "README.md",
     "History.md",
     "index.js",
     "lib/"
@@ -34,6 +34,7 @@
     "mocha": "^6.0.2"
   },
   "directories": {
+    "lib": "lib",
     "test": "test"
   },
   "repository": {
