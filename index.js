@@ -1,5 +1,5 @@
 /*!
- * stocker
+ * sharewatch
  * Copyright(c) 2019 Anjul Garg <anjulgarg@live.com>
  * MIT Licensed
  */

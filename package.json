@@ -39,10 +39,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anjulgarg/stocker.git"
+    "url": "git+https://github.com/anjulgarg/sharewatch.git"
   },
   "bugs": {
-    "url": "https://github.com/anjulgarg/stocker/issues"
+    "url": "https://github.com/anjulgarg/sharewatch/issues"
   },
-  "homepage": "https://github.com/anjulgarg/stocker#readme"
+  "homepage": "https://github.com/anjulgarg/sharewatch#readme"
 }
