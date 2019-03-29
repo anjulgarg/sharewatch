@@ -1,10 +1,10 @@
 {
   "name": "sharewatch",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Fetch Real-time Indian stock market data from NSE (National Stock Exchange) and BSE (Bombay Stock Exchange)",
   "main": "index.js",
   "engines": {
-    "node": ">= 8.10.0"
+    "node": ">= 6.11.0"
   },
   "scripts": {
     "lint": "eslint .",
