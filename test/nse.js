@@ -48,12 +48,12 @@ describe('NSE', function () {
   })
 
   describe('#bhavcopy()', function () {
-    it('should create a file at specified path', function () {
-      let path = './bhavcopy2018-02-02.zip'
-      return NSE.bhavcopy('2018-02-02', path)
+    it('should return an Array of Equities', function () {
+      return NSE.bhavcopy('2018-02-02')
         .then((result) => {
-          expect(fs.existsSync(path)).to.be.true
-          fs.unlinkSync(path)
+          expect(result).to.be.an('Array')
+          expect(result[0]).to.be.an('Object')
+          expect(result[0]).to.contain.keys(['symbol', 'open', 'close'])
         })
     })
   })
