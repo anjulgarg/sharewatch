@@ -1,6 +1,6 @@
 {
   "name": "sharewatch",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Fetch Real-time Indian stock market data from NSE (National Stock Exchange) and BSE (Bombay Stock Exchange)",
   "main": "index.js",
   "engines": {
@@ -13,12 +13,18 @@
   "bin": {
     "sharewatch": "bin/sharewatch.js"
   },
+  "directories": {
+    "lib": "lib",
+    "test": "test",
+    "bin": "bin"
+  },
   "files": [
     "LICENSE",
     "README.md",
     "History.md",
     "index.js",
-    "lib/"
+    "lib/",
+    "bin/"
   ],
   "keywords": [
     "NSE",
@@ -39,10 +45,6 @@
     "chai": "^4.2.0",
     "eslint": "^5.15.3",
     "mocha": "^6.0.2"
-  },
-  "directories": {
-    "lib": "lib",
-    "test": "test"
   },
   "repository": {
     "type": "git",
