@@ -1,6 +1,6 @@
 {
     "env": {
-        "browser": true,
+        "node": true,
         "commonjs": true,
         "es6": true
     },
@@ -16,7 +16,8 @@
     "rules": {
         "indent": [
             "error",
-            2
+            2,
+            {"SwitchCase": 1}
         ],
         "linebreak-style": [
             "error",
@@ -29,6 +30,7 @@
         "semi": [
             "error",
             "never"
-        ]
+        ],
+        "no-console": "off"
     }
 }

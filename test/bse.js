@@ -45,4 +45,15 @@ describe('BSE', function () {
           })
       })
     })
+
+    describe('#bhavcopy()', function () {
+      it('should return an Array of Equities', function () {
+        return BSE.bhavcopy('2018-02-02')
+          .then((result) => {
+            expect(result).to.be.an('Array')
+            expect(result[0]).to.be.an('Object')
+            expect(result[0]).to.contain.keys(['sc_code', 'isin_code'])
+          })
+      })
+    })
   })
