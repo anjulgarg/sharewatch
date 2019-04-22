@@ -35,6 +35,14 @@ describe('NSE', function () {
           expect(result).to.contain.keys(['data'])
         })
     })
+
+    it('should return a quote after encoding URI component', function () {
+      return NSE.quote('J&KBANK')
+        .then((result) => {
+          expect(result).to.be.a('Object')
+          expect(result).to.contain.keys(['data'])
+        })
+    })
   })
 
   describe('#sectorDetails()', function () {
