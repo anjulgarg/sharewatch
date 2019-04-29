@@ -1,6 +1,6 @@
 # Sharewatch
 
-[![Build Status](https://travis-ci.org/anjulgarg/sharewatch.svg?branch=master)](https://travis-ci.org/anjulgarg/sharewatch)
+[![Build Status](https://travis-ci.org/anjulgarg/sharewatch.svg?branch=master)](https://travis-ci.org/anjulgarg/sharewatch)  [![Maintainability](https://api.codeclimate.com/v1/badges/3abc3429496d04a56243/maintainability)](https://codeclimate.com/github/anjulgarg/sharewatch/maintainability)
 
 Fetch Real-time Indian stock market data from NSE (National Stock Exchange) and BSE (Bombay Stock Exchange)
 
